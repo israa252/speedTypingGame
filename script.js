@@ -31,14 +31,7 @@ const cpmTag = document.querySelector(".cpm span")
 let timer;
 let maxTime = 60;
 let timeLeft = maxTime;
-let charIndex = mistakes = isTyping = 0;echo "# speedTypingGame" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/israa252/speedTypingGame.git
-git push -u origin main
-
+let charIndex = mistakes = isTyping = 0; 
 function loadParagraph() {
     const ranIndex = Math.floor(Math.random() * paragraphs.length);
     typingText.innerHTML = "";
